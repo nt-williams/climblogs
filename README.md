@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The companion package to the ClimbOn shinyMobile app to import collected data into R. Must have direct access to the DropBox folder containing the data for use. 
+The companion :package: to the ClimbOn shinyMobile app to import collected data into R. Must have direct access to the DropBox folder containing the data for use. 
 
 ## Installation
 
