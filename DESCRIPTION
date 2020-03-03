@@ -1,13 +1,17 @@
 Package: climblogs
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Query the ClimbOn app data
+Version: 0.0.1.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Nick",
+           family = "Williams",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "ntwilliams.personal@gmail.com")
+Description: Imports the data collected by the ClimbOn shinyMobile app into R.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    rdrop2,
+    rjson,
+    purrr
+RoxygenNote: 6.1.99.9001
